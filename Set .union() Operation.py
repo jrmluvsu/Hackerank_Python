@@ -1,0 +1,8 @@
+a=int(input())
+b=input().split()
+b=set(b)
+c=int(input())
+d=input().split()
+d=set(d)
+g=set(b.union(d))
+print(len(g))
